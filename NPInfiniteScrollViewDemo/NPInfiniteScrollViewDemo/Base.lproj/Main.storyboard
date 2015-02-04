@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pT7-5r-22e">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Horizontal Smooth-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Horizontal Smooth" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0oW-bM-YDs" customClass="NPInfiniteScrollView">
+                                <rect key="frame" x="36" y="104" width="528" height="456"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="August-Flowers-ClipArt-4.png" translatesAutoresizingMaskIntoConstraints="NO" id="ba0-Bx-olb">
+                                        <rect key="frame" x="0.0" y="0.0" width="512" height="512"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Dream_Come_True__82833_zoom.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DnV-IU-RRo">
+                                        <rect key="frame" x="512" y="0.0" width="512" height="512"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Light Violet Flowers.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Jzl-Oq-1RB">
+                                        <rect key="frame" x="1024" y="0.0" width="512" height="512"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="rose_plant_flower.png" translatesAutoresizingMaskIntoConstraints="NO" id="kg2-fP-VjV">
+                                        <rect key="frame" x="1536" y="0.0" width="512" height="512"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Yellow Flowers.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uSj-Tc-nqt">
+                                        <rect key="frame" x="2048" y="0.0" width="512" height="512"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="DnV-IU-RRo" firstAttribute="top" secondItem="0oW-bM-YDs" secondAttribute="top" id="4tN-C1-ul1"/>
+                                    <constraint firstItem="ba0-Bx-olb" firstAttribute="leading" secondItem="0oW-bM-YDs" secondAttribute="leading" id="9b0-6W-1CP"/>
+                                    <constraint firstItem="ba0-Bx-olb" firstAttribute="top" secondItem="0oW-bM-YDs" secondAttribute="top" id="E0s-7d-O4x"/>
+                                    <constraint firstAttribute="bottom" secondItem="Jzl-Oq-1RB" secondAttribute="bottom" id="F15-QU-FsO"/>
+                                    <constraint firstAttribute="bottom" secondItem="DnV-IU-RRo" secondAttribute="bottom" id="GDs-s5-jcn"/>
+                                    <constraint firstAttribute="bottom" secondItem="uSj-Tc-nqt" secondAttribute="bottom" id="Gg5-b0-52l"/>
+                                    <constraint firstItem="Jzl-Oq-1RB" firstAttribute="top" secondItem="0oW-bM-YDs" secondAttribute="top" id="IXb-LA-1VK"/>
+                                    <constraint firstItem="uSj-Tc-nqt" firstAttribute="top" secondItem="0oW-bM-YDs" secondAttribute="top" id="Khj-SI-rUI"/>
+                                    <constraint firstItem="kg2-fP-VjV" firstAttribute="leading" secondItem="0oW-bM-YDs" secondAttribute="leading" constant="1536" id="Kk2-d1-Ib4"/>
+                                    <constraint firstItem="DnV-IU-RRo" firstAttribute="leading" secondItem="0oW-bM-YDs" secondAttribute="leading" constant="512" id="VFs-2C-qeR"/>
+                                    <constraint firstAttribute="trailing" secondItem="uSj-Tc-nqt" secondAttribute="trailing" id="W2J-XB-rwG"/>
+                                    <constraint firstItem="Jzl-Oq-1RB" firstAttribute="leading" secondItem="0oW-bM-YDs" secondAttribute="leading" constant="1024" id="W94-VV-ka7"/>
+                                    <constraint firstAttribute="bottom" secondItem="ba0-Bx-olb" secondAttribute="bottom" id="mSR-YQ-f03"/>
+                                    <constraint firstItem="uSj-Tc-nqt" firstAttribute="leading" secondItem="0oW-bM-YDs" secondAttribute="leading" constant="2048" id="mgw-bu-qY3"/>
+                                    <constraint firstAttribute="bottom" secondItem="kg2-fP-VjV" secondAttribute="bottom" id="yxT-r9-uwN"/>
+                                    <constraint firstItem="kg2-fP-VjV" firstAttribute="top" secondItem="0oW-bM-YDs" secondAttribute="top" id="zH3-RW-bfn"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="1024" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="0oW-bM-YDs" secondAttribute="bottom" constant="40" id="VPs-4q-YQA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0oW-bM-YDs" secondAttribute="trailing" constant="20" id="aHG-mJ-eGa"/>
+                            <constraint firstItem="0oW-bM-YDs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="fnU-mB-n0y"/>
+                            <constraint firstItem="0oW-bM-YDs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="pCe-RI-LlP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="394" y="-1073"/>
+        </scene>
+        <!--Horizontal Paging-->
+        <scene sceneID="wyn-ib-BZr">
+            <objects>
+                <viewController title="Horizontal Paging" id="UYT-VJ-0vC" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ryT-og-ecJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="a8S-Oe-Sd1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DiW-uk-hvZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FM1-VK-RaM" customClass="NPInfiniteScrollView">
+                                <rect key="frame" x="36" y="104" width="528" height="456"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="August-Flowers-ClipArt-4.png" translatesAutoresizingMaskIntoConstraints="NO" id="zwJ-SD-p8I">
+                                        <rect key="frame" x="0.0" y="0.0" width="512" height="512"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Dream_Come_True__82833_zoom.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qCu-yB-DmH">
+                                        <rect key="frame" x="512" y="0.0" width="512" height="512"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Light Violet Flowers.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qFl-Si-4Ov">
+                                        <rect key="frame" x="1024" y="0.0" width="512" height="512"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="rose_plant_flower.png" translatesAutoresizingMaskIntoConstraints="NO" id="FlX-2n-q6l">
+                                        <rect key="frame" x="1536" y="0.0" width="512" height="512"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Yellow Flowers.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jzG-mp-rNi">
+                                        <rect key="frame" x="2048" y="0.0" width="512" height="512"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="zwJ-SD-p8I" secondAttribute="bottom" id="8KH-Jz-GTD"/>
+                                    <constraint firstAttribute="bottom" secondItem="FlX-2n-q6l" secondAttribute="bottom" id="C00-XR-Kba"/>
+                                    <constraint firstAttribute="bottom" secondItem="qFl-Si-4Ov" secondAttribute="bottom" id="DdH-nK-rl8"/>
+                                    <constraint firstItem="zwJ-SD-p8I" firstAttribute="leading" secondItem="FM1-VK-RaM" secondAttribute="leading" id="J14-kr-zEU"/>
+                                    <constraint firstItem="qCu-yB-DmH" firstAttribute="top" secondItem="FM1-VK-RaM" secondAttribute="top" id="PWN-CT-ixj"/>
+                                    <constraint firstItem="zwJ-SD-p8I" firstAttribute="top" secondItem="FM1-VK-RaM" secondAttribute="top" id="SAY-3t-9wt"/>
+                                    <constraint firstAttribute="bottom" secondItem="qCu-yB-DmH" secondAttribute="bottom" id="SBh-kz-mRt"/>
+                                    <constraint firstAttribute="trailing" secondItem="jzG-mp-rNi" secondAttribute="trailing" id="WHc-mp-biW"/>
+                                    <constraint firstItem="jzG-mp-rNi" firstAttribute="top" secondItem="FM1-VK-RaM" secondAttribute="top" id="iCP-Dt-9Fw"/>
+                                    <constraint firstItem="jzG-mp-rNi" firstAttribute="leading" secondItem="FM1-VK-RaM" secondAttribute="leading" constant="2048" id="iRj-YJ-ja7"/>
+                                    <constraint firstItem="FlX-2n-q6l" firstAttribute="leading" secondItem="FM1-VK-RaM" secondAttribute="leading" constant="1536" id="jAP-kv-cWT"/>
+                                    <constraint firstItem="qFl-Si-4Ov" firstAttribute="top" secondItem="FM1-VK-RaM" secondAttribute="top" id="kbH-eu-K0W"/>
+                                    <constraint firstItem="FlX-2n-q6l" firstAttribute="top" secondItem="FM1-VK-RaM" secondAttribute="top" id="qOe-3U-a3S"/>
+                                    <constraint firstItem="qCu-yB-DmH" firstAttribute="leading" secondItem="FM1-VK-RaM" secondAttribute="leading" constant="512" id="rTv-HH-7hs"/>
+                                    <constraint firstAttribute="bottom" secondItem="jzG-mp-rNi" secondAttribute="bottom" id="vb9-g7-RVx"/>
+                                    <constraint firstItem="qFl-Si-4Ov" firstAttribute="leading" secondItem="FM1-VK-RaM" secondAttribute="leading" constant="1024" id="xdD-at-DdC"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="1024" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="FM1-VK-RaM" secondAttribute="bottom" constant="40" id="ELu-09-Al7"/>
+                            <constraint firstItem="FM1-VK-RaM" firstAttribute="leading" secondItem="DiW-uk-hvZ" secondAttribute="leadingMargin" constant="20" id="Iuv-Hg-bH9"/>
+                            <constraint firstItem="FM1-VK-RaM" firstAttribute="top" secondItem="ryT-og-ecJ" secondAttribute="bottom" constant="40" id="Pkb-ad-sLU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FM1-VK-RaM" secondAttribute="trailing" constant="20" id="zUY-Rk-eja"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7DV-os-Ie2" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="394" y="1015"/>
+        </scene>
+        <!--Vertical Paging-->
+        <scene sceneID="3JE-wh-0Io">
+            <objects>
+                <viewController title="Vertical Paging" id="zKd-T6-gqb" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NWC-Md-VkZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="kma-K4-NWi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ucm-qi-dOh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="olX-Ob-e7f" customClass="NPInfiniteScrollView">
+                                <rect key="frame" x="36" y="104" width="528" height="456"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="August-Flowers-ClipArt-4.png" translatesAutoresizingMaskIntoConstraints="NO" id="uKr-Af-V4x">
+                                        <rect key="frame" x="0.0" y="0.0" width="512" height="512"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Dream_Come_True__82833_zoom.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WuP-h5-bba">
+                                        <rect key="frame" x="0.0" y="512" width="512" height="512"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Light Violet Flowers.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="egX-TR-Kua">
+                                        <rect key="frame" x="0.0" y="1024" width="512" height="512"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="rose_plant_flower.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Yr-DM-iN8">
+                                        <rect key="frame" x="0.0" y="1536" width="512" height="512"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Yellow Flowers.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="key-h0-bkA">
+                                        <rect key="frame" x="0.0" y="2048" width="512" height="512"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="uKr-Af-V4x" firstAttribute="top" secondItem="olX-Ob-e7f" secondAttribute="top" id="LOT-VV-Aja"/>
+                                    <constraint firstItem="WuP-h5-bba" firstAttribute="top" secondItem="olX-Ob-e7f" secondAttribute="top" constant="512" id="Mpc-fs-Dke"/>
+                                    <constraint firstItem="2Yr-DM-iN8" firstAttribute="top" secondItem="olX-Ob-e7f" secondAttribute="top" constant="1536" id="YhY-Hv-zxh"/>
+                                    <constraint firstItem="egX-TR-Kua" firstAttribute="leading" secondItem="olX-Ob-e7f" secondAttribute="leading" id="YiW-uD-emK"/>
+                                    <constraint firstItem="egX-TR-Kua" firstAttribute="top" secondItem="olX-Ob-e7f" secondAttribute="top" constant="1024" id="a41-6H-6hG"/>
+                                    <constraint firstItem="2Yr-DM-iN8" firstAttribute="leading" secondItem="olX-Ob-e7f" secondAttribute="leading" id="ccP-7m-ZVW"/>
+                                    <constraint firstAttribute="trailing" secondItem="egX-TR-Kua" secondAttribute="trailing" id="doU-1b-vfG"/>
+                                    <constraint firstAttribute="trailing" secondItem="WuP-h5-bba" secondAttribute="trailing" id="ld8-LA-K9t"/>
+                                    <constraint firstItem="WuP-h5-bba" firstAttribute="leading" secondItem="olX-Ob-e7f" secondAttribute="leading" id="oNE-Ap-oI4"/>
+                                    <constraint firstAttribute="trailing" secondItem="key-h0-bkA" secondAttribute="trailing" id="pu3-WP-6F2"/>
+                                    <constraint firstAttribute="bottom" secondItem="key-h0-bkA" secondAttribute="bottom" id="sbO-Hy-Jwo"/>
+                                    <constraint firstItem="key-h0-bkA" firstAttribute="top" secondItem="olX-Ob-e7f" secondAttribute="top" constant="2048" id="tIv-O8-wqR"/>
+                                    <constraint firstAttribute="trailing" secondItem="2Yr-DM-iN8" secondAttribute="trailing" id="ual-V0-keN"/>
+                                    <constraint firstItem="uKr-Af-V4x" firstAttribute="leading" secondItem="olX-Ob-e7f" secondAttribute="leading" id="vQm-16-4cF"/>
+                                    <constraint firstItem="key-h0-bkA" firstAttribute="leading" secondItem="olX-Ob-e7f" secondAttribute="leading" id="xtc-Rb-dHw"/>
+                                    <constraint firstAttribute="trailing" secondItem="uKr-Af-V4x" secondAttribute="trailing" id="yjk-2U-kn4"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="1024" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="olX-Ob-e7f" secondAttribute="trailing" constant="20" id="ky9-Sd-Q5p"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="olX-Ob-e7f" secondAttribute="bottom" constant="40" id="qcY-EM-i5d"/>
+                            <constraint firstItem="olX-Ob-e7f" firstAttribute="top" secondItem="NWC-Md-VkZ" secondAttribute="bottom" constant="40" id="sOM-ej-VRC"/>
+                            <constraint firstItem="olX-Ob-e7f" firstAttribute="leading" secondItem="ucm-qi-dOh" secondAttribute="leadingMargin" constant="20" id="x5e-Va-pSk"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gBs-Yz-HzD" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="394" y="1751"/>
+        </scene>
+        <!--Vertical Smooth-->
+        <scene sceneID="oRF-j3-bpm">
+            <objects>
+                <viewController title="Vertical Smooth" id="XZa-sr-UHI" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bCj-tU-eve"/>
+                        <viewControllerLayoutGuide type="bottom" id="YAo-Bl-U41"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0C8-HL-fJD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tu7-pI-9rJ" customClass="NPInfiniteScrollView">
+                                <rect key="frame" x="36" y="104" width="528" height="456"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="August-Flowers-ClipArt-4.png" translatesAutoresizingMaskIntoConstraints="NO" id="06y-rt-L43">
+                                        <rect key="frame" x="0.0" y="0.0" width="512" height="512"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Dream_Come_True__82833_zoom.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8WV-LL-m7q">
+                                        <rect key="frame" x="0.0" y="512" width="512" height="512"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Light Violet Flowers.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8zQ-VV-nzn">
+                                        <rect key="frame" x="0.0" y="1024" width="512" height="512"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="rose_plant_flower.png" translatesAutoresizingMaskIntoConstraints="NO" id="EcO-r8-Rq1">
+                                        <rect key="frame" x="0.0" y="1536" width="512" height="512"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Yellow Flowers.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Pdc-pL-Zka">
+                                        <rect key="frame" x="0.0" y="2048" width="512" height="512"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="06y-rt-L43" firstAttribute="leading" secondItem="tu7-pI-9rJ" secondAttribute="leading" id="0k8-u7-ODV"/>
+                                    <constraint firstAttribute="trailing" secondItem="Pdc-pL-Zka" secondAttribute="trailing" id="EJj-HQ-gCC"/>
+                                    <constraint firstItem="8zQ-VV-nzn" firstAttribute="top" secondItem="tu7-pI-9rJ" secondAttribute="top" constant="1024" id="EQr-Zy-PSs"/>
+                                    <constraint firstAttribute="trailing" secondItem="8zQ-VV-nzn" secondAttribute="trailing" id="EYf-ME-arX"/>
+                                    <constraint firstItem="8WV-LL-m7q" firstAttribute="top" secondItem="tu7-pI-9rJ" secondAttribute="top" constant="512" id="KtB-jo-ofM"/>
+                                    <constraint firstItem="Pdc-pL-Zka" firstAttribute="top" secondItem="tu7-pI-9rJ" secondAttribute="top" constant="2048" id="MXf-Yv-D5Z"/>
+                                    <constraint firstAttribute="bottom" secondItem="Pdc-pL-Zka" secondAttribute="bottom" id="OP6-hs-vCX"/>
+                                    <constraint firstAttribute="trailing" secondItem="06y-rt-L43" secondAttribute="trailing" id="TbV-Jl-IsJ"/>
+                                    <constraint firstItem="8zQ-VV-nzn" firstAttribute="leading" secondItem="tu7-pI-9rJ" secondAttribute="leading" id="YcO-Ok-HUL"/>
+                                    <constraint firstItem="06y-rt-L43" firstAttribute="top" secondItem="tu7-pI-9rJ" secondAttribute="top" id="gmk-gH-qdq"/>
+                                    <constraint firstItem="8WV-LL-m7q" firstAttribute="leading" secondItem="tu7-pI-9rJ" secondAttribute="leading" id="ndO-Z7-Sh2"/>
+                                    <constraint firstAttribute="trailing" secondItem="8WV-LL-m7q" secondAttribute="trailing" id="qnw-sy-1p9"/>
+                                    <constraint firstItem="EcO-r8-Rq1" firstAttribute="leading" secondItem="tu7-pI-9rJ" secondAttribute="leading" id="quj-J6-CyC"/>
+                                    <constraint firstItem="EcO-r8-Rq1" firstAttribute="top" secondItem="tu7-pI-9rJ" secondAttribute="top" constant="1536" id="soP-Mf-n8F"/>
+                                    <constraint firstItem="Pdc-pL-Zka" firstAttribute="leading" secondItem="tu7-pI-9rJ" secondAttribute="leading" id="tsn-5d-ya4"/>
+                                    <constraint firstAttribute="trailing" secondItem="EcO-r8-Rq1" secondAttribute="trailing" id="uhb-5U-Kto"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="1024" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tu7-pI-9rJ" firstAttribute="leading" secondItem="0C8-HL-fJD" secondAttribute="leadingMargin" constant="20" id="9VP-Nm-gGa"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="tu7-pI-9rJ" secondAttribute="bottom" constant="40" id="IQD-gM-qHd"/>
+                            <constraint firstItem="tu7-pI-9rJ" firstAttribute="top" secondItem="bCj-tU-eve" secondAttribute="bottom" constant="40" id="OR9-5r-fi3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tu7-pI-9rJ" secondAttribute="trailing" constant="20" id="Qt5-rn-wln"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y40-Pp-1pV" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="394" y="-361"/>
+        </scene>
+        <!--NP Infinite Scroll View Demo-->
+        <scene sceneID="Cmj-LE-ZhA">
+            <objects>
+                <tableViewController title="NP Infinite Scroll View Demo" id="rl5-ug-wsG" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="vgE-Tj-SP9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="dRr-jY-e4F">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="9fc-9g-YVX" style="IBUITableViewCellStyleDefault" id="xVC-fU-val">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xVC-fU-val" id="cUO-ao-6dJ">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Horizontal smooth scrolling" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9fc-9g-YVX">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="g2h-rt-yO4"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="MP3-Ge-vGd" style="IBUITableViewCellStyleDefault" id="gHl-kI-2OY">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gHl-kI-2OY" id="iPn-Xe-hu8">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Vetical smooth scrolling" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MP3-Ge-vGd">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="XZa-sr-UHI" kind="show" id="zGc-ZN-w1h"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="AE1-Gi-rfm" style="IBUITableViewCellStyleDefault" id="kVO-10-fOI">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kVO-10-fOI" id="QFo-kX-HT3">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Both directions smooth scrolling" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AE1-Gi-rfm">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="iLM-qU-Lg7" kind="show" id="s2F-iL-q4u"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="IW8-sf-8Pa" style="IBUITableViewCellStyleDefault" id="eJN-uY-gvX">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eJN-uY-gvX" id="O7c-NK-6RO">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Horizontal Paging scrolling" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IW8-sf-8Pa">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="UYT-VJ-0vC" kind="show" id="rq9-sf-p9N"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="Ubt-Ar-DwV" style="IBUITableViewCellStyleDefault" id="zyL-8p-nqL">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zyL-8p-nqL" id="Tz7-Vz-vhu">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Vertical Paging scrolling" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ubt-Ar-DwV">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="zKd-T6-gqb" kind="show" id="cbO-aU-3rh"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="rl5-ug-wsG" id="HDJ-lc-MIu"/>
+                            <outlet property="delegate" destination="rl5-ug-wsG" id="pzc-vl-l8g"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="NP Infinite Scroll View Demo" id="5oq-yX-WdD"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H5H-va-U4a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-448" y="134"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="VgZ-YS-GlP">
+            <objects>
+                <navigationController id="pT7-5r-22e" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ioo-do-i3a">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="rl5-ug-wsG" kind="relationship" relationship="rootViewController" id="EgF-fc-OSd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nDq-Qw-tcV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1268" y="134"/>
+        </scene>
+        <!--Both Smooth-->
+        <scene sceneID="3UL-eX-8GB">
+            <objects>
+                <viewController title="Both Smooth" id="iLM-qU-Lg7" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Mps-0V-ILx"/>
+                        <viewControllerLayoutGuide type="bottom" id="daz-I7-fDb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iq2-RT-aQ5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zPD-EG-m13" customClass="NPInfiniteScrollView">
+                                <rect key="frame" x="36" y="60" width="528" height="500"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="August-Flowers-ClipArt-4.png" translatesAutoresizingMaskIntoConstraints="NO" id="yf1-Xf-TBw">
+                                        <rect key="frame" x="0.0" y="0.0" width="512" height="512"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Dream_Come_True__82833_zoom.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="i9W-Xw-MW6">
+                                        <rect key="frame" x="512" y="0.0" width="512" height="512"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Light Violet Flowers.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3YR-nD-hYh">
+                                        <rect key="frame" x="0.0" y="512" width="512" height="512"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="rose_plant_flower.png" translatesAutoresizingMaskIntoConstraints="NO" id="a1Q-4e-Kgp">
+                                        <rect key="frame" x="512" y="512" width="512" height="512"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="yf1-Xf-TBw" firstAttribute="leading" secondItem="zPD-EG-m13" secondAttribute="leading" id="1vK-vo-xhZ"/>
+                                    <constraint firstItem="i9W-Xw-MW6" firstAttribute="leading" secondItem="zPD-EG-m13" secondAttribute="leading" constant="512" id="Djn-aP-6xV"/>
+                                    <constraint firstItem="3YR-nD-hYh" firstAttribute="leading" secondItem="zPD-EG-m13" secondAttribute="leading" id="Erz-Im-Yev"/>
+                                    <constraint firstItem="3YR-nD-hYh" firstAttribute="top" secondItem="zPD-EG-m13" secondAttribute="top" constant="512" id="N2g-dV-zEP"/>
+                                    <constraint firstAttribute="bottom" secondItem="a1Q-4e-Kgp" secondAttribute="bottom" id="QlX-9n-15s"/>
+                                    <constraint firstAttribute="trailing" secondItem="a1Q-4e-Kgp" secondAttribute="trailing" id="Wnu-jE-aY3"/>
+                                    <constraint firstItem="a1Q-4e-Kgp" firstAttribute="top" secondItem="zPD-EG-m13" secondAttribute="top" constant="512" id="f2M-gs-sfY"/>
+                                    <constraint firstItem="a1Q-4e-Kgp" firstAttribute="leading" secondItem="zPD-EG-m13" secondAttribute="leading" constant="512" id="hX4-YU-6NR"/>
+                                    <constraint firstItem="i9W-Xw-MW6" firstAttribute="top" secondItem="zPD-EG-m13" secondAttribute="top" id="idp-HH-oRJ"/>
+                                    <constraint firstItem="yf1-Xf-TBw" firstAttribute="top" secondItem="zPD-EG-m13" secondAttribute="top" id="izh-Bg-t5U"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="1024" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="zPD-EG-m13" secondAttribute="trailing" constant="20" id="0Sd-NG-wAA"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="zPD-EG-m13" secondAttribute="bottom" constant="40" id="DYf-QV-7K9"/>
+                            <constraint firstItem="zPD-EG-m13" firstAttribute="top" secondItem="Mps-0V-ILx" secondAttribute="bottom" constant="40" id="R3Y-ID-mrP"/>
+                            <constraint firstItem="zPD-EG-m13" firstAttribute="leading" secondItem="iq2-RT-aQ5" secondAttribute="leadingMargin" constant="20" id="l2T-L8-iJi"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Yv-Oe-YJR" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="394" y="335"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="August-Flowers-ClipArt-4.png" width="512" height="512"/>
+        <image name="Dream_Come_True__82833_zoom.jpg" width="512" height="512"/>
+        <image name="Light Violet Flowers.jpg" width="512" height="512"/>
+        <image name="Yellow Flowers.jpg" width="512" height="512"/>
+        <image name="rose_plant_flower.png" width="512" height="512"/>
+    </resources>
+</document>

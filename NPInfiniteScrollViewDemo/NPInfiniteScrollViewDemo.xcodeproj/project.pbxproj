@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC9831E51A82094A00C8A7D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9831E41A82094A00C8A7D4 /* main.m */; };
+		BC9831E81A82094A00C8A7D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9831E71A82094A00C8A7D4 /* AppDelegate.m */; };
+		BC9831EB1A82094A00C8A7D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9831EA1A82094A00C8A7D4 /* ViewController.m */; };
+		BC9831EE1A82094A00C8A7D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9831EC1A82094A00C8A7D4 /* Main.storyboard */; };
+		BC9831F01A82094A00C8A7D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9831EF1A82094A00C8A7D4 /* Images.xcassets */; };
+		BC9831F31A82094A00C8A7D4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC9831F11A82094A00C8A7D4 /* LaunchScreen.xib */; };
+		BC9831FF1A82094A00C8A7D4 /* NPInfiniteScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9831FE1A82094A00C8A7D4 /* NPInfiniteScrollViewDemoTests.m */; };
+		BC98320B1A82096500C8A7D4 /* NPInfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC98320A1A82096500C8A7D4 /* NPInfiniteScrollView.m */; };
+		BC9832121A820A5000C8A7D4 /* August-Flowers-ClipArt-4.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98320D1A820A5000C8A7D4 /* August-Flowers-ClipArt-4.png */; };
+		BC9832131A820A5000C8A7D4 /* Dream_Come_True__82833_zoom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC98320E1A820A5000C8A7D4 /* Dream_Come_True__82833_zoom.jpg */; };
+		BC9832141A820A5000C8A7D4 /* Light Violet Flowers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC98320F1A820A5000C8A7D4 /* Light Violet Flowers.jpg */; };
+		BC9832151A820A5000C8A7D4 /* rose_plant_flower.png in Resources */ = {isa = PBXBuildFile; fileRef = BC9832101A820A5000C8A7D4 /* rose_plant_flower.png */; };
+		BC9832161A820A5000C8A7D4 /* Yellow Flowers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC9832111A820A5000C8A7D4 /* Yellow Flowers.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC9831F91A82094A00C8A7D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC9831D71A82094A00C8A7D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9831DE1A82094A00C8A7D4;
+			remoteInfo = NPInfiniteScrollViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC9831DF1A82094A00C8A7D4 /* NPInfiniteScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NPInfiniteScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9831E31A82094A00C8A7D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC9831E41A82094A00C8A7D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC9831E61A82094A00C8A7D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC9831E71A82094A00C8A7D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC9831E91A82094A00C8A7D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC9831EA1A82094A00C8A7D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC9831ED1A82094A00C8A7D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC9831EF1A82094A00C8A7D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC9831F21A82094A00C8A7D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BC9831F81A82094A00C8A7D4 /* NPInfiniteScrollViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPInfiniteScrollViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9831FD1A82094A00C8A7D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC9831FE1A82094A00C8A7D4 /* NPInfiniteScrollViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPInfiniteScrollViewDemoTests.m; sourceTree = "<group>"; };
+		BC9832091A82096500C8A7D4 /* NPInfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPInfiniteScrollView.h; sourceTree = "<group>"; };
+		BC98320A1A82096500C8A7D4 /* NPInfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPInfiniteScrollView.m; sourceTree = "<group>"; };
+		BC98320D1A820A5000C8A7D4 /* August-Flowers-ClipArt-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "August-Flowers-ClipArt-4.png"; sourceTree = "<group>"; };
+		BC98320E1A820A5000C8A7D4 /* Dream_Come_True__82833_zoom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dream_Come_True__82833_zoom.jpg; sourceTree = "<group>"; };
+		BC98320F1A820A5000C8A7D4 /* Light Violet Flowers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Light Violet Flowers.jpg"; sourceTree = "<group>"; };
+		BC9832101A820A5000C8A7D4 /* rose_plant_flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rose_plant_flower.png; sourceTree = "<group>"; };
+		BC9832111A820A5000C8A7D4 /* Yellow Flowers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yellow Flowers.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC9831DC1A82094A00C8A7D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9831F51A82094A00C8A7D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC9831D61A82094A00C8A7D4 = {
+			isa = PBXGroup;
+			children = (
+				BC9831E11A82094A00C8A7D4 /* NPInfiniteScrollViewDemo */,
+				BC9831FB1A82094A00C8A7D4 /* NPInfiniteScrollViewDemoTests */,
+				BC9831E01A82094A00C8A7D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC9831E01A82094A00C8A7D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC9831DF1A82094A00C8A7D4 /* NPInfiniteScrollViewDemo.app */,
+				BC9831F81A82094A00C8A7D4 /* NPInfiniteScrollViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC9831E11A82094A00C8A7D4 /* NPInfiniteScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BC9832081A82096500C8A7D4 /* class */,
+				BC9831E61A82094A00C8A7D4 /* AppDelegate.h */,
+				BC9831E71A82094A00C8A7D4 /* AppDelegate.m */,
+				BC9831E91A82094A00C8A7D4 /* ViewController.h */,
+				BC9831EA1A82094A00C8A7D4 /* ViewController.m */,
+				BC9831EC1A82094A00C8A7D4 /* Main.storyboard */,
+				BC9831EF1A82094A00C8A7D4 /* Images.xcassets */,
+				BC9831F11A82094A00C8A7D4 /* LaunchScreen.xib */,
+				BC98320C1A820A5000C8A7D4 /* Resources */,
+				BC9831E21A82094A00C8A7D4 /* Supporting Files */,
+			);
+			path = NPInfiniteScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		BC9831E21A82094A00C8A7D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC9831E31A82094A00C8A7D4 /* Info.plist */,
+				BC9831E41A82094A00C8A7D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC9831FB1A82094A00C8A7D4 /* NPInfiniteScrollViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC9831FE1A82094A00C8A7D4 /* NPInfiniteScrollViewDemoTests.m */,
+				BC9831FC1A82094A00C8A7D4 /* Supporting Files */,
+			);
+			path = NPInfiniteScrollViewDemoTests;
+			sourceTree = "<group>";
+		};
+		BC9831FC1A82094A00C8A7D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC9831FD1A82094A00C8A7D4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC9832081A82096500C8A7D4 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				BC9832091A82096500C8A7D4 /* NPInfiniteScrollView.h */,
+				BC98320A1A82096500C8A7D4 /* NPInfiniteScrollView.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		BC98320C1A820A5000C8A7D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC98320D1A820A5000C8A7D4 /* August-Flowers-ClipArt-4.png */,
+				BC98320E1A820A5000C8A7D4 /* Dream_Come_True__82833_zoom.jpg */,
+				BC98320F1A820A5000C8A7D4 /* Light Violet Flowers.jpg */,
+				BC9832101A820A5000C8A7D4 /* rose_plant_flower.png */,
+				BC9832111A820A5000C8A7D4 /* Yellow Flowers.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC9831DE1A82094A00C8A7D4 /* NPInfiniteScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9832021A82094A00C8A7D4 /* Build configuration list for PBXNativeTarget "NPInfiniteScrollViewDemo" */;
+			buildPhases = (
+				BC9831DB1A82094A00C8A7D4 /* Sources */,
+				BC9831DC1A82094A00C8A7D4 /* Frameworks */,
+				BC9831DD1A82094A00C8A7D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NPInfiniteScrollViewDemo;
+			productName = NPInfiniteScrollViewDemo;
+			productReference = BC9831DF1A82094A00C8A7D4 /* NPInfiniteScrollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC9831F71A82094A00C8A7D4 /* NPInfiniteScrollViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9832051A82094A00C8A7D4 /* Build configuration list for PBXNativeTarget "NPInfiniteScrollViewDemoTests" */;
+			buildPhases = (
+				BC9831F41A82094A00C8A7D4 /* Sources */,
+				BC9831F51A82094A00C8A7D4 /* Frameworks */,
+				BC9831F61A82094A00C8A7D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC9831FA1A82094A00C8A7D4 /* PBXTargetDependency */,
+			);
+			name = NPInfiniteScrollViewDemoTests;
+			productName = NPInfiniteScrollViewDemoTests;
+			productReference = BC9831F81A82094A00C8A7D4 /* NPInfiniteScrollViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC9831D71A82094A00C8A7D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Napoleonit LLC";
+				TargetAttributes = {
+					BC9831DE1A82094A00C8A7D4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BC9831F71A82094A00C8A7D4 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BC9831DE1A82094A00C8A7D4;
+					};
+				};
+			};
+			buildConfigurationList = BC9831DA1A82094A00C8A7D4 /* Build configuration list for PBXProject "NPInfiniteScrollViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC9831D61A82094A00C8A7D4;
+			productRefGroup = BC9831E01A82094A00C8A7D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC9831DE1A82094A00C8A7D4 /* NPInfiniteScrollViewDemo */,
+				BC9831F71A82094A00C8A7D4 /* NPInfiniteScrollViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC9831DD1A82094A00C8A7D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9832141A820A5000C8A7D4 /* Light Violet Flowers.jpg in Resources */,
+				BC9832121A820A5000C8A7D4 /* August-Flowers-ClipArt-4.png in Resources */,
+				BC9831EE1A82094A00C8A7D4 /* Main.storyboard in Resources */,
+				BC9831F31A82094A00C8A7D4 /* LaunchScreen.xib in Resources */,
+				BC9831F01A82094A00C8A7D4 /* Images.xcassets in Resources */,
+				BC9832151A820A5000C8A7D4 /* rose_plant_flower.png in Resources */,
+				BC9832131A820A5000C8A7D4 /* Dream_Come_True__82833_zoom.jpg in Resources */,
+				BC9832161A820A5000C8A7D4 /* Yellow Flowers.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9831F61A82094A00C8A7D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC9831DB1A82094A00C8A7D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9831EB1A82094A00C8A7D4 /* ViewController.m in Sources */,
+				BC9831E81A82094A00C8A7D4 /* AppDelegate.m in Sources */,
+				BC9831E51A82094A00C8A7D4 /* main.m in Sources */,
+				BC98320B1A82096500C8A7D4 /* NPInfiniteScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9831F41A82094A00C8A7D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9831FF1A82094A00C8A7D4 /* NPInfiniteScrollViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC9831FA1A82094A00C8A7D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC9831DE1A82094A00C8A7D4 /* NPInfiniteScrollViewDemo */;
+			targetProxy = BC9831F91A82094A00C8A7D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC9831EC1A82094A00C8A7D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9831ED1A82094A00C8A7D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC9831F11A82094A00C8A7D4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9831F21A82094A00C8A7D4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC9832001A82094A00C8A7D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC9832011A82094A00C8A7D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC9832031A82094A00C8A7D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NPInfiniteScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC9832041A82094A00C8A7D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NPInfiniteScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC9832061A82094A00C8A7D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NPInfiniteScrollViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NPInfiniteScrollViewDemo.app/NPInfiniteScrollViewDemo";
+			};
+			name = Debug;
+		};
+		BC9832071A82094A00C8A7D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NPInfiniteScrollViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NPInfiniteScrollViewDemo.app/NPInfiniteScrollViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC9831DA1A82094A00C8A7D4 /* Build configuration list for PBXProject "NPInfiniteScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9832001A82094A00C8A7D4 /* Debug */,
+				BC9832011A82094A00C8A7D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC9832021A82094A00C8A7D4 /* Build configuration list for PBXNativeTarget "NPInfiniteScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9832031A82094A00C8A7D4 /* Debug */,
+				BC9832041A82094A00C8A7D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC9832051A82094A00C8A7D4 /* Build configuration list for PBXNativeTarget "NPInfiniteScrollViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9832061A82094A00C8A7D4 /* Debug */,
+				BC9832071A82094A00C8A7D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC9831D71A82094A00C8A7D4 /* Project object */;
+}
