@@ -17,9 +17,6 @@
 #endif
 
 @interface NPInfiniteScrollView () <UIScrollViewDelegate>
-
--(void) redrawPlaceHolders;
-
 @end
 
 @implementation NPInfiniteScrollView {
