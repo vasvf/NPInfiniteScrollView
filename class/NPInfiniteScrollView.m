@@ -281,24 +281,28 @@
         if (((*targetContentOffset).x<-self.frame.size.width/2)) {
             NPLog(@"decelerating backwards %@, %@", NSStringFromCGPoint((*targetContentOffset)), NSStringFromCGSize(self.contentSize));
             [super setContentOffset:CGPointMake(self.contentOffset.x+self.contentSize.width, self.contentOffset.y)];
+            targetContentOffset->x += self.contentSize.width;
         }
         
         //If target offset is far right
         if ((*targetContentOffset).x>self.contentSize.width-self.frame.size.width/2) {
             NPLog(@"decelerating forwards %@, %@", NSStringFromCGPoint((*targetContentOffset)), NSStringFromCGSize(self.contentSize));
             [super setContentOffset:CGPointMake(self.contentOffset.x-self.contentSize.width, self.contentOffset.y)];
+            targetContentOffset->x -= self.contentSize.width;
         }
         
         //If target offset is far up
         if (((*targetContentOffset).y<-self.frame.size.height/2)) {
             NPLog(@"decelerating upwards %@, %@", NSStringFromCGPoint((*targetContentOffset)), NSStringFromCGSize(self.contentSize));
             [super setContentOffset:CGPointMake(self.contentOffset.x, self.contentOffset.y+self.contentSize.height)];
+            targetContentOffset->y += self.contentSize.height;
         }
         
         //If target offset is far bottom
         if (((*targetContentOffset).y>self.contentSize.height-self.frame.size.height/2)) {
             NPLog(@"decelerating backwards %@, %@", NSStringFromCGPoint((*targetContentOffset)), NSStringFromCGSize(self.contentSize));
             [super setContentOffset:CGPointMake(self.contentOffset.x, self.contentOffset.y-self.contentSize.height)];
+            targetContentOffset->y -= self.contentSize.height;
         }
         
     }
