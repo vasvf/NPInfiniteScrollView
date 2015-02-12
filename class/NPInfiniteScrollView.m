@@ -25,7 +25,7 @@
     BOOL hasHorizontalScroll;
     BOOL hasVerticalScroll;
     
-    id <UIScrollViewDelegate> originalDelegate;
+    __weak id <UIScrollViewDelegate> originalDelegate;
 }
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder
