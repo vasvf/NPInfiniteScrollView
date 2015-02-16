@@ -237,7 +237,9 @@
     
     for (UIView *view in placeholderSubviews) {
         //You can use it for debug to see the magic
-//        view.alpha = 0.5;
+        if (NPDebug) {
+            view.alpha = 0.5;
+        }
         [super addSubview:view];
     }
 }

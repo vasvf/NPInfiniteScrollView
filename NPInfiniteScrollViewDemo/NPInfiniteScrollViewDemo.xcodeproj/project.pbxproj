@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC6325251A921DBA003C7F8A /* NPInfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6325241A921DBA003C7F8A /* NPInfiniteScrollView.m */; };
 		BC9831E51A82094A00C8A7D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9831E41A82094A00C8A7D4 /* main.m */; };
 		BC9831E81A82094A00C8A7D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9831E71A82094A00C8A7D4 /* AppDelegate.m */; };
 		BC9831EB1A82094A00C8A7D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9831EA1A82094A00C8A7D4 /* ViewController.m */; };
@@ -14,7 +15,6 @@
 		BC9831F01A82094A00C8A7D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9831EF1A82094A00C8A7D4 /* Images.xcassets */; };
 		BC9831F31A82094A00C8A7D4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC9831F11A82094A00C8A7D4 /* LaunchScreen.xib */; };
 		BC9831FF1A82094A00C8A7D4 /* NPInfiniteScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9831FE1A82094A00C8A7D4 /* NPInfiniteScrollViewDemoTests.m */; };
-		BC98320B1A82096500C8A7D4 /* NPInfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC98320A1A82096500C8A7D4 /* NPInfiniteScrollView.m */; };
 		BC9832121A820A5000C8A7D4 /* August-Flowers-ClipArt-4.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98320D1A820A5000C8A7D4 /* August-Flowers-ClipArt-4.png */; };
 		BC9832131A820A5000C8A7D4 /* Dream_Come_True__82833_zoom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC98320E1A820A5000C8A7D4 /* Dream_Come_True__82833_zoom.jpg */; };
 		BC9832141A820A5000C8A7D4 /* Light Violet Flowers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC98320F1A820A5000C8A7D4 /* Light Violet Flowers.jpg */; };
@@ -33,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC6325231A921DBA003C7F8A /* NPInfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NPInfiniteScrollView.h; path = ../../../class/NPInfiniteScrollView.h; sourceTree = "<group>"; };
+		BC6325241A921DBA003C7F8A /* NPInfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NPInfiniteScrollView.m; path = ../../../class/NPInfiniteScrollView.m; sourceTree = "<group>"; };
 		BC9831DF1A82094A00C8A7D4 /* NPInfiniteScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NPInfiniteScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9831E31A82094A00C8A7D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC9831E41A82094A00C8A7D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,8 +48,6 @@
 		BC9831F81A82094A00C8A7D4 /* NPInfiniteScrollViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPInfiniteScrollViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9831FD1A82094A00C8A7D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC9831FE1A82094A00C8A7D4 /* NPInfiniteScrollViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPInfiniteScrollViewDemoTests.m; sourceTree = "<group>"; };
-		BC9832091A82096500C8A7D4 /* NPInfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPInfiniteScrollView.h; sourceTree = "<group>"; };
-		BC98320A1A82096500C8A7D4 /* NPInfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPInfiniteScrollView.m; sourceTree = "<group>"; };
 		BC98320D1A820A5000C8A7D4 /* August-Flowers-ClipArt-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "August-Flowers-ClipArt-4.png"; sourceTree = "<group>"; };
 		BC98320E1A820A5000C8A7D4 /* Dream_Come_True__82833_zoom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dream_Come_True__82833_zoom.jpg; sourceTree = "<group>"; };
 		BC98320F1A820A5000C8A7D4 /* Light Violet Flowers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Light Violet Flowers.jpg"; sourceTree = "<group>"; };
@@ -137,8 +137,8 @@
 		BC9832081A82096500C8A7D4 /* class */ = {
 			isa = PBXGroup;
 			children = (
-				BC9832091A82096500C8A7D4 /* NPInfiniteScrollView.h */,
-				BC98320A1A82096500C8A7D4 /* NPInfiniteScrollView.m */,
+				BC6325231A921DBA003C7F8A /* NPInfiniteScrollView.h */,
+				BC6325241A921DBA003C7F8A /* NPInfiniteScrollView.m */,
 			);
 			path = class;
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 				BC9831EB1A82094A00C8A7D4 /* ViewController.m in Sources */,
 				BC9831E81A82094A00C8A7D4 /* AppDelegate.m in Sources */,
 				BC9831E51A82094A00C8A7D4 /* main.m in Sources */,
-				BC98320B1A82096500C8A7D4 /* NPInfiniteScrollView.m in Sources */,
+				BC6325251A921DBA003C7F8A /* NPInfiniteScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +456,7 @@
 				BC9832041A82094A00C8A7D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC9832051A82094A00C8A7D4 /* Build configuration list for PBXNativeTarget "NPInfiniteScrollViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +465,7 @@
 				BC9832071A82094A00C8A7D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
