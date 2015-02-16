@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface NPInfiniteScrollView : UIScrollView
-
+// Redraws the subview placeholders.  If your subviews are redrawn after insertion (eg loading
+// a UIImageView from the web), you should call this method to update their placeholders.
+-(void) redrawPlaceHolders;
 @end
